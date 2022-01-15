@@ -1,0 +1,22 @@
+.avail {
+  margin-left: 50px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding-right: 4px;
+  padding-left: 4px;
+  width: 400px;
+  height: 370px;
+}
+.pie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pie-number {
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}

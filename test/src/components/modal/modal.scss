@@ -1,0 +1,36 @@
+.modal {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+}
+
+.modal-base {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+}
+
+
+.button-close {
+  background-color: white;
+  border: none;
+  margin-right: 15px;
+}
+
+.modal-content {
+  display: flex;
+}
+
+.title {
+  margin-top: 10px;
+  margin-right: 15px;
+}

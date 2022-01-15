@@ -1,0 +1,77 @@
+.form {
+  padding-left: 25px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: gainsboro;
+  width: 290px;
+  border-radius: 10px;
+  height: 332px;
+}
+
+.name {
+  margin-bottom: 20px;
+}
+
+.input-name{
+  margin-top: 5px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  transition: border-width 0.6s linear;
+  border: 1px solid gainsboro;
+}
+
+.input-name:hover {
+  border-width: 1px;
+  border-color: green;
+}
+
+.dropdown-category{
+  margin-top: 5px;
+  padding: 5px;
+  width: 260px;
+  border-radius: 5px;
+  border: none;
+  transition: border-width 0.6s linear;
+  border: 1px solid gainsboro;
+}
+
+.dropdown-category:hover {
+  border-width: 1px;
+  border-color: green;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+
+.radio-availability {
+  margin-top: 5px;
+}
+
+.availability{
+  margin-bottom: 20px;
+}
+
+.input-arrival{
+  margin-top: 5px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+
+.arrival {
+  margin-bottom: 10px;
+}
+
+.btn-form {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: darkgreen;
+  border: none;
+  color: white;
+}
